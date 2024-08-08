@@ -25,14 +25,14 @@ const config = {
       {
         preset: "angular",
         releaseRules: [
-          {type: 'build', release: 'patch'}, // Сборка
-          {type: 'ci', release: 'patch'}, // Непрерывная интеграция
+          {type: 'build', release: false}, // Сборка
+          {type: 'ci', release: false}, // Непрерывная интеграция
+          {type: 'test', release: false}, // Добавление или исправление тестов
           {type: 'docs', release: 'patch'}, // Документация
           {type: 'refactor', release: 'patch'}, // Рефакторинг кода
           {type: 'chore', release: 'patch'}, // Внутренние изменения
           {type: 'revert', release: 'patch'}, // Отмена предыдущего коммита
           {type: 'style', release: 'patch'}, // Изменения в стиле кода
-          {type: 'test', release: 'patch'}, // Добавление или исправление тестов
           {type: 'fix', release: 'patch'}, // Исправление ошибок
           {type: 'feat', release: 'minor'}, // Новая функциональность
           {type: 'perf', release: 'minor'}, // Улучшение производительности
