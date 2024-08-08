@@ -1,5 +1,5 @@
 {
-  "name": "egorkas-pluck",
+  "name": "egorkas-npm",
   "version": "0.0.0",
   "description": "My package",
   "private": false,
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Egoka/egorkas-pluck.git"
+    "url": "git+https://github.com/Egoka/egorkas-npm.git"
   },
   "keywords": [
     "npm"
@@ -20,9 +20,9 @@
   "author": "Egor Bondarenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Egoka/egorkas-pluck/issues"
+    "url": "https://github.com/Egoka/egorkas-npm/issues"
   },
-  "homepage": "https://github.com/Egoka/egorkas-pluck#readme",
+  "homepage": "https://github.com/Egoka/egorkas-npm#readme",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-terser": "^0.4.4",

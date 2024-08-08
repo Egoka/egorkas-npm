@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": false,
   "author": "Egor Bondarenco",
-  "homepage": "https://github.com/Egoka/egorkas-pluck#readme",
+  "homepage": "https://github.com/Egoka/egorkas-npm#readme",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Egoka/egorkas-pluck/issues"
+    "url": "https://github.com/Egoka/egorkas-npm/issues"
   },
   "keywords": [
     "npm"
